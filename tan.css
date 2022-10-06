@@ -1,9 +1,92 @@
-h1 {
-     font-size:20px;
-     font-family: sans-serif;
+*{ 
+   margin: 0;
+   padding : 0;
 }
 
-h3 {
+h1 {
 
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+ 
+h3 {
+    font-family:sans-serif;
     font-size:13px;
+    font-weight:bold;
+}
+
+header,section,footer,nav,article,h3{
+        display:block;
+}
+
+body {
+    text-align:center;
+}
+
+.Group{
+    width:960px;
+    border:1px solid black;
+    margin: 15px auto ; 
+}
+
+.header{
+    background: #706fd3;
+    border:1px solid #474787;
+    padding: 15px ;   
+}
+
+.header h1{
+    text-align:left
+
+}
+.Homepage{
+   background : #686de0;
+   padding:15px 5px;
+   text-align:left;
+} 
+
+.Homepage li{
+    border : 1px solid black;
+    display : inline-block;
+    list-style:none;
+    padding: 3px;
+    font: bold 12px verdana;
+}
+
+section{
+    border :1px solid #474787;
+    background-color: #dff9fb;
+    margin :20px 0;
+    float : left ;
+}
+
+.secondarticle{
+    width: 500px;
+    float:left;
+    border :1px solid#474787;
+}
+.firstarticle{
+    float:left;
+}
+
+.footer{
+    clear:both;
+    width :300px;
+    font-size : 12px;
+
+
+}
+
+.comments p{
+    margin :10 0;
+    border:1px solid black ;
+    width:497px;
+}
+
+img{
+    width: 40px;
+    display : block;
+    float :right;
+    text-align:right;
 }
